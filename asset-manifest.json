@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/BlueStack/static/css/main.073c9b0a.css",
+    "main.js": "/BlueStack/static/js/main.846e900d.js",
+    "static/js/787.51e5c524.chunk.js": "/BlueStack/static/js/787.51e5c524.chunk.js",
+    "static/media/logo.svg": "/BlueStack/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/BlueStack/index.html",
+    "main.073c9b0a.css.map": "/BlueStack/static/css/main.073c9b0a.css.map",
+    "main.846e900d.js.map": "/BlueStack/static/js/main.846e900d.js.map",
+    "787.51e5c524.chunk.js.map": "/BlueStack/static/js/787.51e5c524.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.846e900d.js"
+  ]
+}
