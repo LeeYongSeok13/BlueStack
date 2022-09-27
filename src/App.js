@@ -13,8 +13,8 @@ function App() {
     <Wrapper>
       <Header />
       <Routes>
-        <Route path='/' element={<Main />} />
-        <Route path='/Characteristic' element={<Characteristic />} />
+        <Route path='/BlueStack' element={<Main />} />
+        <Route path='/BlueStack/Characteristic' element={<Characteristic />} />
       </Routes>
       <Footer />
     </Wrapper >

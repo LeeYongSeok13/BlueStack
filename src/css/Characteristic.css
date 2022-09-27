@@ -1,0 +1,96 @@
+.container {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.VChar {
+    padding: 100px 0 0 0;
+    background: #3a1a65;
+}
+
+.VChar .container {
+    display: block;
+    text-align: center;
+}
+
+.VChar .container h2 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0 0 100px 0;
+}
+
+.VChar .container figure {
+    height: 313px;
+}
+
+.MChar {
+    padding: 100px;
+}
+
+.MChar .container {
+    display: block;
+    text-align: center;
+}
+
+.MChar .container h2 {
+    font-size: 35px;
+    font-weight: 700;
+    margin: 0 0 100px 0;
+}
+
+.MChar .game_control {
+    display: flex;
+    gap: 50px;
+}
+
+.MChar .game_control figure {
+    position: relative;
+    float: left;
+    width: 50%;
+}
+
+.MChar .game_control figure img {
+    width: 100%;
+}
+
+.MChar .game_control figure .scroll_img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
+
+.MChar .game_control .game_control_sub {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 431.25px;
+}
+
+.MChar .game_control .game_control_sub img {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.MChar .game_control .game_control_sub h2 {
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0 0 20px 0;
+}
+
+.MChar .game_control .game_control_sub p {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 0 20px 0;
+}
+
+.MChar .game_control .game_control_sub a {
+    display: inline-block;
+    padding: 5px 15px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}

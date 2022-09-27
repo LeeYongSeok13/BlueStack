@@ -108,6 +108,10 @@
   color: #fff;
 }
 
+.Footer .container {
+  justify-content: space-between;
+}
+
 .Footer .container ul {
   display: flex;
   gap: 50px;
@@ -127,4 +131,24 @@
 .Footer .container .subscribe {
   display: flex;
   gap: 10px;
+}
+
+.Footer .container .xi-reddit {
+  background: #f76937;
+}
+
+.Footer .container .xi-facebook {
+  background: #3b5998;
+}
+
+.Footer .container .xi-twitter {
+  background: #55acee;
+}
+
+.Footer .container .xi-youtube-play {
+  background: #e62117;
+}
+
+.Footer .container .xi-naver {
+  background: #19ce60;
 }

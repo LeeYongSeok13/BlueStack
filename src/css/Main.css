@@ -2,6 +2,10 @@
     position: relative;
 }
 
+.MainVisual>div {
+    height: 800px;
+}
+
 .MainSlider figure {
     position: relative;
     width: 100%;
@@ -112,4 +116,98 @@
 .MainSlider .inner_content span .download p {
     font-size: 15px;
     font-weight: 500;
+}
+
+.Rank {
+    padding: 5px 0;
+    background: #113965;
+    color: #fff;
+    text-align: center;
+}
+
+.Rank strong {
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0 0 10px 0;
+}
+
+.Rank ul li {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.Advertise {
+    padding: 100px 0;
+    background: url('../../public/images/advertise_bg.png') no-repeat center center/cover;
+}
+
+.Advertise .container {
+    display: block;
+}
+
+.Advertise .container .Ad01 {
+    display: flex;
+    gap: 50px;
+}
+
+.Advertise .container .Ad01 figure {
+    float: left;
+    width: 50%;
+}
+
+.Advertise .container .Ad01 figure img {
+    width: 100%;
+}
+
+.Advertise .container .Ad01 .Ad01_sub {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.Advertise .container .Ad01 .Ad01_sub h2 {
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0 0 20px 0;
+}
+
+.Advertise .container .Ad01 .Ad01_sub p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.414;
+}
+
+.Advertise .container .Ad02 {
+    display: flex;
+    gap: 50px;
+}
+
+.Advertise .container .Ad02 figure {
+    float: right;
+    width: 50%;
+}
+
+.Advertise .container .Ad02 figure img {
+    width: 100%;
+}
+
+.Advertise .container .Ad02 .Ad02_sub {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.Advertise .container .Ad02 .Ad02_sub h2 {
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0 0 20px 0;
+}
+
+.Advertise .container .Ad02 .Ad02_sub p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.414;
 }

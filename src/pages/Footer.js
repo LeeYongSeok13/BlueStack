@@ -52,6 +52,8 @@ const Footer = () => {
                             <li><Link to="/">업데이트</Link></li>
                         </ul>
                     </li>
+                </ul>
+                <ul>
                     <li>
                         팔로잉하기
                         <ul className='sns'>
