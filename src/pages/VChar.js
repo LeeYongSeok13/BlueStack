@@ -1,4 +1,5 @@
 const VChar = ({ content }) => {
+
     return (
         <section className="VChar">
             <div className="container">

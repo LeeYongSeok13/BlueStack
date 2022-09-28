@@ -1,15 +1,20 @@
 import React from 'react';
 import VChar from './VChar';
-import MChar from './MChar';
+import CChar from './CChar';
+import IChar from './IChar';
+import MACChar from './MACChar';
+import RChar from './RChar';
 import '../css/Characteristic.css';
-import { Link } from 'react-router-dom';
 
 
 const Characteristic = ({ content }) => {
     return (
         <section className='Characteristic'>
             <VChar word={content} />
-            <MChar word={content} />
+            <CChar word={content} />
+            <IChar word={content} />
+            <MACChar word={content} />
+            <RChar word={content} />
         </section>
     )
 }

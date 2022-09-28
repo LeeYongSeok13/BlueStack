@@ -25,45 +25,54 @@
     height: 313px;
 }
 
-.MChar {
-    padding: 100px;
+.CChar {
+    padding: 100px 0;
 }
 
-.MChar .container {
+.CChar .container {
     display: block;
     text-align: center;
 }
 
-.MChar .container h2 {
+.CChar .container h2 {
     font-size: 35px;
     font-weight: 700;
     margin: 0 0 100px 0;
 }
 
-.MChar .game_control {
+.CChar .game_control {
     display: flex;
     gap: 50px;
 }
 
-.MChar .game_control figure {
+.CChar .game_control figure {
     position: relative;
     float: left;
     width: 50%;
 }
 
-.MChar .game_control figure img {
+.CChar .game_control figure img {
     width: 100%;
 }
 
-.MChar .game_control figure .scroll_img {
+.CChar .game_control figure .scroll_gamecontrol_img {
     position: absolute;
-    top: 50%;
+    top: 70%;
     left: 50%;
     width: 100%;
     transform: translate(-50%, -50%);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
 }
 
-.MChar .game_control .game_control_sub {
+.CChar .game_control figure .scroll_gamecontrol_img.active {
+    top: 50%;
+    opacity: 1;
+    visibility: visible;
+}
+
+.CChar .game_control .game_control_sub {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -71,26 +80,199 @@
     height: 431.25px;
 }
 
-.MChar .game_control .game_control_sub img {
-    width: 20%;
+.CChar .game_control .game_control_sub img {
+    width: 120px;
     margin: 0 auto;
 }
 
-.MChar .game_control .game_control_sub h2 {
+.CChar .game_control .game_control_sub h2 {
     font-size: 25px;
     font-weight: 700;
     margin: 0 0 20px 0;
 }
 
-.MChar .game_control .game_control_sub p {
+.CChar .game_control .game_control_sub p {
     font-size: 20px;
     font-weight: 500;
     margin: 0 0 20px 0;
 }
 
-.MChar .game_control .game_control_sub a {
+.CChar .game_control .game_control_sub a {
     display: inline-block;
     padding: 5px 15px;
     border: 1px solid #000;
     border-radius: 10px;
+}
+
+.IChar {
+    padding: 100px 0;
+}
+
+.IChar .container {
+    display: block;
+    text-align: center;
+}
+
+.IChar .multi {
+    display: flex;
+}
+
+.IChar .multi .multi_sub {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 431.25px;
+}
+
+.IChar .multi .multi_sub img {
+    width: 120px;
+    margin: 0 auto;
+}
+
+.IChar .multi figure {
+    position: relative;
+    float: right;
+    width: 50%;
+}
+
+.IChar .multi figure img {
+    width: 100%;
+}
+
+.IChar .multi .multi_sub h2 {
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0 0 20px 0;
+}
+
+.IChar .multi .multi_sub p {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 0 20px 0;
+}
+
+.IChar .multi .multi_sub a {
+    display: inline-block;
+    padding: 5px 15px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.IChar .multi .scroll_multi_img {
+    position: absolute;
+    top: 70%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+
+.IChar .multi figure .scroll_multi_img.active {
+    top: 55%;
+    opacity: 1;
+    visibility: visible;
+}
+
+.MACChar {
+    padding: 100px 0;
+}
+
+.MACChar .container {
+    display: block;
+    text-align: center;
+}
+
+.MACChar .container .macro {
+    display: flex;
+}
+
+.MACChar .container .macro video {
+    float: left;
+    width: 50%;
+}
+
+.MACChar .container .macro_sub {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 431.25px;
+}
+
+.MACChar .container .macro_sub img {
+    width: 120px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.MACChar .macro .macro_sub h2 {
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0 0 20px 0;
+}
+
+.MACChar .macro .macro_sub p {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 0 20px 0;
+}
+
+.MACChar .macro .macro_sub a {
+    display: inline-block;
+    padding: 5px 15px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.RChar {
+    padding: 100px 0;
+}
+
+.RChar .container {
+    display: block;
+    text-align: center;
+}
+
+.RChar .reset {
+    display: flex;
+}
+
+.RChar .reset .reset_sub {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 431.25px;
+}
+
+.RChar .reset .reset_sub img {
+    width: 120px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.RChar .reset .reset_sub h2 {
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0 0 20px 0;
+}
+
+.RChar .reset .reset_sub p {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 0 20px 0;
+}
+
+.RChar .reset .reset_sub a {
+    display: inline-block;
+    padding: 5px 15px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.RChar .reset video {
+    float: right;
+    width: 50%;
 }
