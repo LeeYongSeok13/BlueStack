@@ -85,17 +85,8 @@
   border-top: 1px solid #fff;
 }
 
-.search input {
-  outline: none;
-}
-
-.search button {
-  outline: none;
-  border: none;
-  background: inherit;
-  font-size: 19px;
-  color: #fff;
-  cursor: pointer;
+.Search button {
+  vertical-align: middle;
 }
 
 .Main {

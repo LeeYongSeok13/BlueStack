@@ -1,4 +1,5 @@
-import { useEffect, useRef, useState } from 'react';
+import React from 'react';
+import { useRef } from 'react';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 
@@ -15,17 +16,12 @@ const RANK = [
 ]
 
 const Rank = ({ content }) => {
-    const [IDX, setIDX] = useState();
-    useEffect(() => {
-        setIDX(0)
-    }, []);
     const mainRank = useRef(null);
 
     const settings = {
         arrows: false,
         autoplay: true,
         autoplaySpeed: 3000,
-        afterChange: index => setIDX(index),
         pauseOnHover: false,
         vertical: true,
     }

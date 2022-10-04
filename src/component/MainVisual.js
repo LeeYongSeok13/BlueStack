@@ -1,4 +1,5 @@
-import { useEffect, useRef, useState } from 'react';
+import React from 'react';
+import { useRef } from 'react';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 
@@ -11,14 +12,9 @@ const SLIDE = [
 ]
 
 const MainVisual = ({ content }) => {
-    const [IDX, setIDX] = useState();
-    useEffect(() => {
-        setIDX(0)
-    }, []);
     const mainSlide = useRef(null);
     const settings = {
         arrows: false,
-        afterChange: index => setIDX(index),
         autoplay: true,
         autoplaySpeed: 5000,
         pauseOnHover: false,
@@ -35,8 +31,8 @@ const MainVisual = ({ content }) => {
                                     <div className='inner_content'>
                                         <figure key={slide.title} className={"logo0" + slide.logo}></figure>
                                         <span>
-                                            <a href='https://www.bluestacks.com/ko/bluestacks-5.html?utm_source=Google&utm_medium=CPC&utm_campaign=aw-ded-ko-bluestacks5-brand&gclid=EAIaIQobChMIz_bO7aq0-gIVosEWBR3HxAgmEAAYASAAEgIyZvD_BwE' target='_blank'>
-                                                <img src={process.env.PUBLIC_URL + '/images/bluestacks_logo.png'}></img>
+                                            <a href='https://www.bluestacks.com/ko/bluestacks-5.html?utm_source=Google&utm_medium=CPC&utm_campaign=aw-ded-ko-bluestacks5-brand&gclid=EAIaIQobChMIz_bO7aq0-gIVosEWBR3HxAgmEAAYASAAEgIyZvD_BwE' target="_blank" rel="noreferrer">
+                                                <img src={process.env.PUBLIC_URL + '/images/bluestacks_logo.png'} alt="/"></img>
                                                 <div className='download'>
                                                     <h2>다운로드</h2>
                                                     <p>BlueStacks 5</p>

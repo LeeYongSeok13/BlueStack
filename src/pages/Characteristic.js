@@ -1,9 +1,9 @@
 import React from 'react';
-import VChar from './VChar';
-import CChar from './CChar';
-import IChar from './IChar';
-import MACChar from './MACChar';
-import RChar from './RChar';
+import VChar from '../component/VChar';
+import CChar from '../component/CChar';
+import IChar from '../component/IChar';
+import MACChar from '../component/MACChar';
+import RChar from '../component/RChar';
 import '../css/Characteristic.css';
 
 
