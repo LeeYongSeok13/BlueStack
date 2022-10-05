@@ -5,6 +5,7 @@ import Header from './component/Header';
 import Main from './pages/Main';
 import Characteristic from './pages/Characteristic';
 import Game from './pages/Game';
+import Blog from './pages/Blog';
 import Footer from './component/Footer';
 import { Route, Routes } from 'react-router-dom';
 
@@ -17,6 +18,7 @@ function App() {
         <Route path='/BlueStack' element={<Main />} />
         <Route path='/BlueStack/Characteristic' element={<Characteristic />} />
         <Route path='/BlueStack/Game' element={<Game />} />
+        <Route path='/BlueStack/Blog' element={<Blog />} />
       </Routes>
       <Footer />
     </Wrapper >

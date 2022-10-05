@@ -19,7 +19,7 @@ const Navmenu = () => {
                     <ul>
                         <li><Link to="/">TOP 게임</Link></li>
                         <li><Link to="/">액션</Link></li>
-                        <li><Link to="/">롤플레잉</Link></li>
+                        <li><Link to="/">롤플레잉   </Link></li>
                         <li><Link to="/">아케이드</Link></li>
                         <li><Link to="/">전략</Link></li>
                     </ul>
