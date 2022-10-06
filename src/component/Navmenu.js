@@ -8,10 +8,10 @@ const Navmenu = () => {
                 <li>
                     <Link to="/BlueStack/Characteristic">특징</Link>
                     <ul>
-                        <li><Link to="/">게임 컨트롤</Link></li>
-                        <li><Link to="/">멀티 인스턴스</Link></li>
-                        <li><Link to="/">매크로</Link></li>
-                        <li><Link to="/">리세마라</Link></li>
+                        <li><Link to="/BlueStack/Characteristic/Control">게임 컨트롤</Link></li>
+                        <li><Link to="/BlueStack/Characteristic/Multi">멀티 인스턴스</Link></li>
+                        <li><Link to="/BlueStack/Characteristic/Macro">매크로</Link></li>
+                        <li><Link to="/BlueStack/Characteristic/Reset">리세마라</Link></li>
                     </ul>
                 </li>
                 <li>

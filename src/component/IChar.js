@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const IChar = ({ content }) => {
 
@@ -25,7 +26,7 @@ const IChar = ({ content }) => {
                         <img src={process.env.PUBLIC_URL + '/images/multi.png'} alt='/'></img>
                         <h2>멀티 인스턴스</h2>
                         <p>여러 게임을 동시에 플레이합니다.</p>
-                        <strong><a href="">더보기</a></strong>
+                        <strong><Link to='/BlueStack/Characteristic/Multi'>더보기</Link></strong>
                     </div>
                     <figure>
                         <img src={process.env.PUBLIC_URL + '/images/multi_img.jpg'} alt='/'></img>

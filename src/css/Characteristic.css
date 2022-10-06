@@ -104,7 +104,94 @@
     border-radius: 10px;
 }
 
-.IChar {
+.Controlhead {
+    padding: 100px 0;
+    background: url('../../public/images/Control_bg.jpeg')no-repeat top center/cover;
+}
+
+.Control .container {
+    display: block;
+}
+
+.Controlhead .container figure img {
+    width: 10%;
+    filter: invert(100);
+}
+
+.Controlhead .container h2 {
+    position: relative;
+    font-size: 35px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0 0 20px 0;
+}
+
+.Controlhead .container p {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.414;
+    color: #ddd;
+    margin: 0 0 50px 0;
+}
+
+.Controlhead .container h2::after {
+    position: absolute;
+    content: "";
+    display: block;
+    top: calc(100% + 10px);
+    width: 20%;
+    height: 3px;
+    background: #fff;
+}
+
+.Controlhead .container .right {
+    float: right;
+    width: 50%;
+}
+
+.Controlhead .container .right figure img {
+    width: 100%;
+}
+
+.ControlMain {
+    padding: 100px 0;
+}
+
+.ControlMain .container h2 {
+    font-size: 35px;
+    font-weight: 700;
+    margin: 0 0 50px 0;
+}
+
+.ControlMain .container p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.414;
+    margin: 0 0 100px 0;
+}
+
+.ControlMain .container .main_explain {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.ControlMain .container .main_explain div {
+    width: 400px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.414;
+    padding: 0 20px;
+    text-align: left;
+}
+
+.ControlMain .container .main_explain div p {
+    font-size: 13px;
+    font-weight: 500;
+    margin: 20px 0 0 0;
+}
+
+.Control .IChar {
     padding: 100px 0;
 }
 
@@ -175,6 +262,34 @@
     visibility: visible;
 }
 
+.Multihead {
+    padding: 100px 0;
+    background: url(../../public/images/Multi_bg.jpeg) no-repeat top center/cover;
+}
+
+.Multihead .container {
+    display: block;
+}
+
+.Multihead .container figure img {
+    width: 10%;
+    filter: invert(100);
+}
+
+.Multihead .container h2 {
+    font-size: 35px;
+    font-weight: 700;
+    margin: 0 0 20px 0;
+    color: #fff;
+}
+
+.Multihead .container p {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.414;
+    color: #ddd;
+}
+
 .MACChar {
     padding: 100px 0;
 }
@@ -224,6 +339,35 @@
     padding: 5px 15px;
     border: 1px solid #000;
     border-radius: 10px;
+}
+
+.Macrohead {
+    padding: 100px 0;
+    background: url('../../public/images/Macro_bg.jpeg')no-repeat top center/cover;
+}
+
+.Macrohead .container {
+    display: block;
+}
+
+.Macrohead .container figure img {
+    width: 120px;
+    padding: 10px;
+    filter: invert(100);
+}
+
+.Macrohead .container h2 {
+    font-size: 35px;
+    font-weight: 700;
+    margin: 0 0 20px 0;
+    color: #fff;
+}
+
+.Macrohead .container p {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.414;
+    color: #ddd;
 }
 
 .RChar {

@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { Link } from "react-router-dom"
 
 const CChar = ({ content }) => {
 
@@ -30,7 +31,7 @@ const CChar = ({ content }) => {
                         <img src={process.env.PUBLIC_URL + '/images/keyboard.png'}></img>
                         <h2>게임 컨트롤</h2>
                         <p>사전 설정된 컨트롤로 플레이하거나 사용자 지정합니다.</p>
-                        <strong><a href="">더보기</a></strong>
+                        <strong><Link to="/BlueStack/Characteristic/Control">더보기</Link></strong>
                     </div>
                 </div>
             </div>
