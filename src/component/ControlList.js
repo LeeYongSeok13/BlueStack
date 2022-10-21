@@ -31,10 +31,6 @@ const ControlList = () => {
     ]
     return (
         <section classList="ControlList">
-            <div className="container">
-                <ul className="ControlTab">
-                </ul>
-            </div>
         </section>
     )
 }

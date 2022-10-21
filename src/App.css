@@ -108,6 +108,10 @@
   gap: 50px;
 }
 
+.Footer .container ul>li {
+  text-align: center;
+}
+
 .Footer .container ul>li>ul {
   display: block;
   line-height: 1.414;
@@ -121,25 +125,30 @@
 
 .Footer .container .subscribe {
   display: flex;
-  gap: 10px;
+  gap: 20px;
 }
 
 .Footer .container .xi-reddit {
+  padding: 3px;
   background: #f76937;
 }
 
 .Footer .container .xi-facebook {
+  padding: 3px;
   background: #3b5998;
 }
 
 .Footer .container .xi-twitter {
+  padding: 3px;
   background: #55acee;
 }
 
 .Footer .container .xi-youtube-play {
+  padding: 3px;
   background: #e62117;
 }
 
 .Footer .container .xi-naver {
+  padding: 3px;
   background: #19ce60;
 }
