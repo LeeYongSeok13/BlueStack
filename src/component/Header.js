@@ -13,7 +13,6 @@ const Header = () => {
                     </Link>
                 </h1>
                 <Navmenu />
-                <Search />
             </div>
         </section >
     )
