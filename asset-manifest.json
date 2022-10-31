@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/BlueStack/static/css/main.6f68b5af.css",
-    "main.js": "/BlueStack/static/js/main.615f5f19.js",
+    "main.css": "/BlueStack/static/css/main.20c1dc31.css",
+    "main.js": "/BlueStack/static/js/main.4539e293.js",
     "static/media/MainVisual04.png": "/BlueStack/static/media/MainVisual04.dde45c70ed9c10b2fb10.png",
     "static/media/MainVisual03.jpg": "/BlueStack/static/media/MainVisual03.baf78f84f325b08c264c.jpg",
     "static/media/mainVisual01.jpg": "/BlueStack/static/media/mainVisual01.392c248ba99e293d57b2.jpg",
@@ -16,11 +16,11 @@
     "static/media/Slidetitle05.png": "/BlueStack/static/media/Slidetitle05.25c83aef8b484a326215.png",
     "static/media/advertise_bg.png": "/BlueStack/static/media/advertise_bg.ea5e5fd0ed7f17e5c397.png",
     "index.html": "/BlueStack/index.html",
-    "main.6f68b5af.css.map": "/BlueStack/static/css/main.6f68b5af.css.map",
-    "main.615f5f19.js.map": "/BlueStack/static/js/main.615f5f19.js.map"
+    "main.20c1dc31.css.map": "/BlueStack/static/css/main.20c1dc31.css.map",
+    "main.4539e293.js.map": "/BlueStack/static/js/main.4539e293.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f68b5af.css",
-    "static/js/main.615f5f19.js"
+    "static/css/main.20c1dc31.css",
+    "static/js/main.4539e293.js"
   ]
 }
