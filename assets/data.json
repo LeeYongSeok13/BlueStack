@@ -1,0 +1,185 @@
+[
+    {
+        "id": 1,
+        "name": "리니지 M",
+        "genre": "Roleplaying",
+        "company": "NCSOFT"
+    },
+    {
+        "id": 2,
+        "name": "오딘 발할라 라이징",
+        "genre": "Roleplaying",
+        "company": "Kakao Games Corp."
+    },
+    {
+        "id": 3,
+        "name": "리니지 W",
+        "genre": "Roleplaying",
+        "company": "NCSOFT"
+    },
+    {
+        "id": 4,
+        "name": "히트 2",
+        "genre": "Roleplaying",
+        "company": "NEXON Company"
+    },
+    {
+        "id": 5,
+        "name": "FIFA ONLINE4 M",
+        "genre": "Sports",
+        "company": "NEXON Company"
+    },
+    {
+        "id": 6,
+        "name": "히어로즈 테일즈",
+        "genre": "Roleplaying",
+        "company": "37 Moblie Games"
+    },
+    {
+        "id": 7,
+        "name": "리니지 2M",
+        "genre": "Roleplaying",
+        "company": "NCSOFT"
+    },
+    {
+        "id": 8,
+        "name": "탕탕특공대",
+        "genre": "Adventure",
+        "company": "Habby"
+    },
+    {
+        "id": 9,
+        "name": "원신",
+        "genre": "Adventure",
+        "company": "COGNOSPHERE PTE.LTD."
+    },
+    {
+        "id": 10,
+        "name": "쿠키런:킹덤",
+        "genre": "Roleplaying",
+        "company": "Devsisters Coporation"
+    },
+    {
+        "id": 11,
+        "name": "던전앤파이터 모바일",
+        "genre": "Roleplaying",
+        "company": "NEXON Company"
+    },
+    {
+        "id": 12,
+        "name": "퍼즐 오브 Z",
+        "genre": "Roleplaying",
+        "company": "BLANCOZONE NETWORK CO.LIMITED"
+    },
+    {
+        "id": 13,
+        "name": "Roblox",
+        "genre": "Adventure",
+        "company": "Roblox Coporation"
+    },
+    {
+        "id": 14,
+        "name": "갓삼국",
+        "genre": "Roleplaying",
+        "company": "ICEBIRD GAMES"
+    },
+    {
+        "id": 15,
+        "name": "블레이드 & 소울 레볼루션",
+        "genre": "Roleplaying",
+        "company": "Netmarble"
+    },
+    {
+        "id": 16,
+        "name": "피파모바일",
+        "genre": "Sports",
+        "company": "NEXON Company"
+    },
+    {
+        "id": 17,
+        "name": "우마무스메 프리티 더비",
+        "genre": "Simulation",
+        "company": "Kakao Games Corp."
+    },
+    {
+        "id": 18,
+        "name": "한게임 포커",
+        "genre": "Casino",
+        "company": "NHN Corp."
+    },
+    {
+        "id": 19,
+        "name": "프리스톤테일M",
+        "genre": "Roleplaying",
+        "company": "FOW Games"
+    },
+    {
+        "id": 20,
+        "name": "라스트 포트리스:언더그라운드",
+        "genre": "Strategy",
+        "company": "LIFE IS A GAME LIMITED"
+    },
+    {
+        "id": 21,
+        "name": "엑자일:어벤징 파이어",
+        "genre": "Roleplaying",
+        "company": "SPGAME"
+    },
+    {
+        "id": 22,
+        "name": "리니지2 레볼루션",
+        "genre": "Roleplaying",
+        "company": "Netmarble"
+    },
+    {
+        "id": 23,
+        "name": "클래시 오브 클랜",
+        "genre": "Strategy",
+        "company": "Supercell"
+    },
+    {
+        "id": "name": """genre": """company": ""
+    },
+    {
+        "id": 24,
+        "name": "세븐나이츠 레볼루션",
+        "genre": "Roleplaying",
+        "company": "Netmarble"
+    },
+    {
+        "id": 25,
+        "name": "기적의 검",
+        "genre": "Roleplaying",
+        "company": "4399 KOREA"
+    },
+    {
+        "id": 26,
+        "name": "바람의나라:연",
+        "genre": "Roleplaying",
+        "company": "NEXON Company"
+    },
+    {
+        "id": 27,
+        "name": "라이즈 오브 킹덤즈",
+        "genre": "Strategy",
+        "company": "LilithGames"
+    },
+    {
+        "id": 28,
+        "name": "리틀 삼국",
+        "genre": "Roleplaying",
+        "company": "Morefun Technology Limited"
+    },
+    {
+        "id": 29,
+        "name": "에이지 오브 제트:타워 디펜스",
+        "genre": "Strategy",
+        "company": "CamelStudio"
+    },
+    {
+        "id": 30,
+        "name": "꿈의 정원(Gardenscrapes)",
+        "genre": "Casual",
+        "company": "Playrix"
+    }
+]
