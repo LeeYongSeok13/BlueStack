@@ -21,7 +21,6 @@ const CChar = ({ content }) => {
     return (
         <section className="CChar" >
             <div className="container">
-                <h2>블루스택 특징</h2>
                 <div className="game_control">
                     <figure>
                         <img src={process.env.PUBLIC_URL + '/images/game_control.jpg'} alt='/'></img>

@@ -1,4 +1,5 @@
 import React from 'react';
+import axios from 'axios';
 import VChar from '../component/VChar';
 import CChar from '../component/CChar';
 import IChar from '../component/IChar';
@@ -8,9 +9,11 @@ import '../css/Characteristic.css';
 
 
 const Characteristic = ({ content }) => {
+
     return (
         <section className='Characteristic'>
             <VChar word={content} />
+            <h2>블루스택 특징</h2>
             <CChar word={content} />
             <IChar word={content} />
             <MACChar word={content} />

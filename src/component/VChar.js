@@ -10,7 +10,7 @@ const VChar = ({ content }) => {
                     <img src={process.env.PUBLIC_URL + '/images/characteristic_main.png'} alt='/'></img>
                 </figure>
             </div>
-        </section>
+        </section >
     )
 }
 export default VChar
