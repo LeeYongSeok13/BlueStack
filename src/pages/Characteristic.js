@@ -1,5 +1,4 @@
 import React from 'react';
-import axios from 'axios';
 import VChar from '../component/VChar';
 import CChar from '../component/CChar';
 import IChar from '../component/IChar';
