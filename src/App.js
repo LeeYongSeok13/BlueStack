@@ -7,6 +7,7 @@ import Characteristic from './pages/Characteristic';
 import Control from './component/Control';
 import Multi from './component/Multi';
 import Macro from './component/Macro';
+import Reset from './component/Reset';
 import Game from './pages/Game';
 import Blog from './pages/Blog';
 import Footer from './component/Footer';
@@ -14,6 +15,8 @@ import { Route, Routes } from 'react-router-dom';
 
 
 function App() {
+
+
   return (
     <Wrapper>
       <Header />
@@ -23,6 +26,7 @@ function App() {
         <Route path='/BlueStack/Characteristic/Control' element={<Control />} />
         <Route path='/BlueStack/Characteristic/Multi' element={<Multi />} />
         <Route path='/BlueStack/Characteristic/Macro' element={<Macro />} />
+        <Route path='/BlueStack/Characterisitc/Reset' element={<Reset />} />
         <Route path='/BlueStack/Game' element={<Game />} />
         <Route path='/BlueStack/Blog' element={<Blog />} />
       </Routes>

@@ -1,6 +1,5 @@
 import React from 'react';
 import Navmenu from './Navmenu';
-import Search from './Search';
 import { Link } from 'react-router-dom';
 
 const Header = () => {

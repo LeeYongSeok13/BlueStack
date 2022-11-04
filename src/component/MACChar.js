@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 const MACChar = ({ content }) => {
     return (
         <section className="MACChar">
@@ -10,7 +12,7 @@ const MACChar = ({ content }) => {
                         <img src={process.env.PUBLIC_URL + '/images/macro.png'} alt='/'></img>
                         <h2>매크로</h2>
                         <p>한번의 클릭으로 패턴을 저장하고 실행합니다.</p>
-                        <strong><a href="/">더보기</a></strong>
+                        <strong><Link to="/BlueStack/Characteristic/Macro">더보기</Link></strong>
                     </div>
                 </div>
             </div>
