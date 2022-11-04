@@ -1,13 +1,10 @@
 import React from 'react';
 
-const Gamelist = ({ users }) => {
-
+const Gamelist = () => {
     return (
-        <section className="Gamelist">
-            <div className='container'>
-                <h2>안녕하세요</h2>
-            </div>
-        </section >
+        <section className='Gamelist'>
+            <h2>안녕하세요</h2>
+        </section>
     )
 }
 export default Gamelist

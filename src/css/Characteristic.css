@@ -427,3 +427,32 @@
     float: right;
     width: 50%;
 }
+
+.Resethead {
+    padding: 100px 0;
+    background: url('../../public/images/Reset_bg.jpeg')no-repeat top center/cover;
+}
+
+.Resethead .container {
+    display: block;
+}
+
+.Resethead .container figure img {
+    width: 120px;
+    padding: 10px;
+    filter: invert(100);
+}
+
+.Resethead .container h2 {
+    font-size: 35px;
+    font-weight: 700;
+    margin: 0 0 20px 0;
+    color: #fff;
+}
+
+.Resethead .container p {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.414;
+    color: #ddd;
+}

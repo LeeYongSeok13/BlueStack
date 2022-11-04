@@ -26,7 +26,7 @@ function App() {
         <Route path='/BlueStack/Characteristic/Control' element={<Control />} />
         <Route path='/BlueStack/Characteristic/Multi' element={<Multi />} />
         <Route path='/BlueStack/Characteristic/Macro' element={<Macro />} />
-        <Route path='/BlueStack/Characterisitc/Reset' element={<Reset />} />
+        <Route path='/BlueStack/Characteristic/Reset' element={<Reset />} />
         <Route path='/BlueStack/Game' element={<Game />} />
         <Route path='/BlueStack/Blog' element={<Blog />} />
       </Routes>
