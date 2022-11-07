@@ -198,6 +198,52 @@
     margin: 20px 0 0 0;
 }
 
+.ControlOption {
+    background-color: #1f2640;
+    color: #fff;
+    padding: 100px 0;
+}
+
+.ControlOption .container h2 {
+    font-size: 35px;
+    font-weight: 700;
+    margin: 0 0 50px 0;
+}
+
+.ControlOption .container p {
+    font-size: 17px;
+    font-weight: 500;
+    margin: 0 0 20px 0;
+}
+
+.ControlOption .container span {
+    display: inline-block;
+    padding: 5px 20px;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+.ControlOption .container strong {
+    display: inline-block;
+    margin: 0 0 0 5px;
+    width: 10px;
+    height: 10px;
+    border-bottom: 3px solid #fff;
+    border-right: 3px solid #fff;
+    transform: rotate(45deg);
+}
+
+.ControlOption .container span.active strong {
+    border-bottom: none;
+    border-right: none;
+    border-top: 3px solid #fff;
+    border-left: 3px solid #fff;
+}
+
+.ControlOption .container .ControlOptionInner .option01 {
+    margin: 50px 0;
+}
+
 .Control .IChar {
     padding: 100px 0;
 }
@@ -297,8 +343,102 @@
     color: #ddd;
 }
 
-.MACChar {
-    padding: 100px 0;
+.Multicontent .container .content {
+    line-height: 1.414;
+}
+
+.Multicontent .container .content h2 {
+    font-size: 27px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 50px 0;
+}
+
+.Multicontent .container .content p {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.Multicontent .container .content01 {
+    display: flex;
+    margin: 100px 0;
+}
+
+.Multicontent .container .content01 .content01inner {
+    width: 50%;
+    margin: auto 0;
+}
+
+.Multicontent .container .content01 figure {
+    width: 50%;
+    height: 400px;
+    background: url('../../public/images/multi01.jpg') no-repeat center center/contain;
+}
+
+.Multicontent .container .content02 {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 100px 0;
+}
+
+.Multicontent .container .content02 .content02inner {
+    width: 50%;
+    margin: auto 0;
+}
+
+.Multicontent .container .content02 figure {
+    width: 50%;
+    height: 400px;
+    background: url('../../public/images/multi02.jpg') no-repeat center center/contain;
+}
+
+.Multicontent .container .content03 {
+    display: flex;
+    margin: 100px 0;
+}
+
+.Multicontent .container .content03 .content03inner {
+    width: 50%;
+    margin: auto 0;
+}
+
+.Multicontent .container .content03 figure {
+    width: 50%;
+    height: 400px;
+    background: url('../../public/images/multi03.jpg') no-repeat center center/contain;
+}
+
+.Multicontent .container .content04 {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 100px 0;
+}
+
+.Multicontent .container .content04 .content04inner {
+    width: 50%;
+    margin: auto 0;
+}
+
+.Multicontent .container .content04 figure {
+    width: 50%;
+    height: 400px;
+    background: url('../../public/images/multi04.jpg') no-repeat center center/contain;
+}
+
+.Multicontent .container .content05 {
+    display: flex;
+    margin: 100px 0;
+}
+
+.Multicontent .container .content05 .content05inner {
+    width: 50%;
+    margin: auto 0;
+}
+
+.Multicontent .container .content05 figure {
+    width: 50%;
+    height: 400px;
+    background: url('../../public/images/multi05.jpg') no-repeat center center/contain;
 }
 
 .MACChar .container {
