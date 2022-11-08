@@ -1,17 +1,35 @@
 {
   "files": {
-    "main.css": "/BlueStack/static/css/main.47a3e3fb.css",
-    "main.js": "/BlueStack/static/js/main.3435d8db.js",
+    "main.css": "/BlueStack/static/css/main.43a25504.css",
+    "main.js": "/BlueStack/static/js/main.8fb8aeb5.js",
     "static/media/MainVisual04.png": "/BlueStack/static/media/MainVisual04.dde45c70ed9c10b2fb10.png",
     "static/media/MainVisual03.jpg": "/BlueStack/static/media/MainVisual03.baf78f84f325b08c264c.jpg",
     "static/media/mainVisual01.jpg": "/BlueStack/static/media/mainVisual01.392c248ba99e293d57b2.jpg",
+    "static/media/optionfigure012.png": "/BlueStack/static/media/optionfigure012.ac7537321e33c6026dd3.png",
     "static/media/MainVisual02.jpg": "/BlueStack/static/media/MainVisual02.7c21196f5c99cf7a28d5.jpg",
+    "static/media/optionfigure08.png": "/BlueStack/static/media/optionfigure08.5ba9f27228dba4123e18.png",
+    "static/media/optionfigure03.png": "/BlueStack/static/media/optionfigure03.ebdbb8ae1a4fbb3ff846.png",
     "static/media/Slidetitle04.png": "/BlueStack/static/media/Slidetitle04.f2fac1041ac5f8fad067.png",
+    "static/media/macrofigure4.jpg": "/BlueStack/static/media/macrofigure4.e3823c692c2e0040087f.jpg",
     "static/media/MainVisual05.jpg": "/BlueStack/static/media/MainVisual05.dec099f7d8d6c8e05ab7.jpg",
     "static/media/Slidetitle01.png": "/BlueStack/static/media/Slidetitle01.a7930909cfb252fdc0e0.png",
+    "static/media/optionfigure011.png": "/BlueStack/static/media/optionfigure011.38d6e3f24b9cc4e99d5a.png",
+    "static/media/macrofigure1.png": "/BlueStack/static/media/macrofigure1.6ebeb8b22f2e70f0d848.png",
+    "static/media/optionfigure01.png": "/BlueStack/static/media/optionfigure01.5c355a6ddd470a7f3bb1.png",
+    "static/media/macrofigure5.jpg": "/BlueStack/static/media/macrofigure5.d27661357f4e184072ac.jpg",
+    "static/media/macrofigure3.jpg": "/BlueStack/static/media/macrofigure3.3315db0dd823ed37a708.jpg",
+    "static/media/optionfigure07.png": "/BlueStack/static/media/optionfigure07.22f46363a130c9288d5c.png",
     "static/media/multi04.jpg": "/BlueStack/static/media/multi04.7fd5c04ef3ed7f9ae141.jpg",
+    "static/media/optionfigure02.png": "/BlueStack/static/media/optionfigure02.1a122d7d2faf97c4c75a.png",
+    "static/media/optionfigure05.png": "/BlueStack/static/media/optionfigure05.e6d1b27270b35bed1bce.png",
+    "static/media/optionfigure06.png": "/BlueStack/static/media/optionfigure06.1ee673084aa7a31db724.png",
+    "static/media/optionfigure09.png": "/BlueStack/static/media/optionfigure09.4e14b62c98dac193bc72.png",
+    "static/media/optionfigure04.png": "/BlueStack/static/media/optionfigure04.ebff947c871da07e9bb9.png",
+    "static/media/optionfigure010.png": "/BlueStack/static/media/optionfigure010.2558cdc1ef2b59cf0b57.png",
     "static/media/multi05.jpg": "/BlueStack/static/media/multi05.5095d0efa6ae882dea7f.jpg",
     "static/media/multi01.jpg": "/BlueStack/static/media/multi01.a6641b8568d489d38127.jpg",
+    "static/media/macrofigure2.jpg": "/BlueStack/static/media/macrofigure2.ae0f890d778bf4affd07.jpg",
+    "static/media/macrofigure6.jpg": "/BlueStack/static/media/macrofigure6.68170eeefc24233bdfe6.jpg",
     "static/media/Multi_bg.jpeg": "/BlueStack/static/media/Multi_bg.4b8746e6ba7df05c8475.jpeg",
     "static/media/multi03.jpg": "/BlueStack/static/media/multi03.35ee7914c4fcccd8e0c5.jpg",
     "static/media/Reset_bg.jpeg": "/BlueStack/static/media/Reset_bg.f5a56631d83560d0c868.jpeg",
@@ -22,11 +40,11 @@
     "static/media/Slidetitle05.png": "/BlueStack/static/media/Slidetitle05.25c83aef8b484a326215.png",
     "static/media/advertise_bg.png": "/BlueStack/static/media/advertise_bg.ea5e5fd0ed7f17e5c397.png",
     "index.html": "/BlueStack/index.html",
-    "main.47a3e3fb.css.map": "/BlueStack/static/css/main.47a3e3fb.css.map",
-    "main.3435d8db.js.map": "/BlueStack/static/js/main.3435d8db.js.map"
+    "main.43a25504.css.map": "/BlueStack/static/css/main.43a25504.css.map",
+    "main.8fb8aeb5.js.map": "/BlueStack/static/js/main.8fb8aeb5.js.map"
   },
   "entrypoints": [
-    "static/css/main.47a3e3fb.css",
-    "static/js/main.3435d8db.js"
+    "static/css/main.43a25504.css",
+    "static/js/main.8fb8aeb5.js"
   ]
 }
