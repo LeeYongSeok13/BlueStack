@@ -141,16 +141,6 @@
     margin: 0 0 50px 0;
 }
 
-.Controlhead .container h2::after {
-    position: absolute;
-    content: "";
-    display: block;
-    top: calc(100% + 10px);
-    width: 20%;
-    height: 3px;
-    background: #fff;
-}
-
 .Controlhead .container .right {
     float: right;
     width: 50%;
@@ -207,12 +197,14 @@
 .ControlOption .container h2 {
     font-size: 35px;
     font-weight: 700;
+    text-align: center;
     margin: 0 0 50px 0;
 }
 
 .ControlOption .container p {
     font-size: 17px;
     font-weight: 500;
+    line-height: 1.414;
     margin: 0 0 20px 0;
 }
 
@@ -241,7 +233,215 @@
 }
 
 .ControlOption .container .ControlOptionInner .option01 {
-    margin: 50px 0;
+    display: flex;
+    gap: 50px;
+    margin: 100px 0;
+}
+
+.ControlOption .container .ControlOptionInner .option01 .option01item {
+    width: 50%;
+    margin: auto 0;
+}
+
+.ControlOption .container .ControlOptionInner .option01 .optionfigure01 {
+    width: 50%;
+    height: 450px;
+    background: url('../../public/images/optionfigure01.png') no-repeat center center/cover;
+}
+
+.ControlOption .container .ControlOptionInner .option02 {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 50px;
+    margin: 100px 0;
+}
+
+.ControlOption .container .ControlOptionInner .option02 .option02item {
+    width: 50%;
+    margin: auto 0;
+}
+
+.ControlOption .container .ControlOptionInner .option02 .optionfigure02 {
+    width: 50%;
+    height: 450px;
+    background: url('../../public/images/optionfigure02.png')no-repeat center center/cover;
+}
+
+.ControlOption .container .ControlOptionInner .option03 {
+    display: flex;
+    gap: 50px;
+    margin: 100px 0;
+}
+
+.ControlOption .container .ControlOptionInner .option03 .option03item {
+    width: 50%;
+    margin: auto 0;
+}
+
+.ControlOption .container .ControlOptionInner .option03 .optionfigure03 {
+    width: 50%;
+    height: 450px;
+    background: url('../../public/images/optionfigure03.png')no-repeat center center/cover;
+}
+
+.ControlOption .container .ControlOptionInner .option04 {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 50px;
+    margin: 100px 0;
+}
+
+.ControlOption .container .ControlOptionInner .option04 .option04item {
+    width: 50%;
+    margin: auto 0;
+}
+
+.ControlOption .container .ControlOptionInner .option04 .optionfigure04 {
+    width: 50%;
+    height: 450px;
+    background: url('../../public/images/optionfigure04.png')no-repeat center center/cover;
+}
+
+.ControlOption .container .ControlOptionInner .option05 {
+    display: flex;
+    gap: 50px;
+    margin: 100px 0;
+}
+
+.ControlOption .container .ControlOptionInner .option05 .option05item {
+    width: 50%;
+    margin: auto 0;
+}
+
+.ControlOption .container .ControlOptionInner .option05 .optionfigure05 {
+    width: 50%;
+    height: 450px;
+    background: url('../../public/images/optionfigure05.png')no-repeat center center/cover;
+}
+
+.ControlOption .container .ControlOptionInner .option06 {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 50px;
+    margin: 100px 0;
+}
+
+.ControlOption .container .ControlOptionInner .option06 .option06item {
+    width: 50%;
+    margin: auto 0;
+}
+
+.ControlOption .container .ControlOptionInner .option06 .optionfigure06 {
+    width: 50%;
+    height: 450px;
+    background: url('../../public/images/optionfigure06.png')no-repeat center center/cover;
+}
+
+.ControlOption .container .ControlOptionInner .option07 {
+    display: flex;
+    gap: 50px;
+    margin: 100px 0;
+}
+
+.ControlOption .container .ControlOptionInner .option07 .option07item {
+    width: 50%;
+    margin: auto 0;
+}
+
+.ControlOption .container .ControlOptionInner .option07 .optionfigure07 {
+    width: 50%;
+    height: 450px;
+    background: url('../../public/images/optionfigure07.png')no-repeat center center/cover;
+}
+
+.ControlOption .container .ControlOptionInner .option08 {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 50px;
+    margin: 100px 0;
+}
+
+.ControlOption .container .ControlOptionInner .option08 .option08item {
+    width: 50%;
+    margin: auto 0;
+}
+
+.ControlOption .container .ControlOptionInner .option08 .optionfigure08 {
+    width: 50%;
+    height: 450px;
+    background: url('../../public/images/optionfigure08.png')no-repeat center center/cover;
+}
+
+
+.ControlOption .container .ControlOptionInner .option09 {
+    display: flex;
+    gap: 50px;
+    margin: 100px 0;
+}
+
+.ControlOption .container .ControlOptionInner .option09 .option09item {
+    width: 50%;
+    margin: auto 0;
+}
+
+.ControlOption .container .ControlOptionInner .option09 .optionfigure09 {
+    width: 50%;
+    height: 450px;
+    background: url('../../public/images/optionfigure09.png')no-repeat center center/cover;
+}
+
+.ControlOption .container .ControlOptionInner .option010 {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 50px;
+    margin: 100px 0;
+}
+
+.ControlOption .container .ControlOptionInner .option010 .option010item {
+    width: 50%;
+    margin: auto 0;
+}
+
+.ControlOption .container .ControlOptionInner .option010 .optionfigure010 {
+    width: 50%;
+    height: 450px;
+    background: url('../../public/images/optionfigure010.png')no-repeat center center/cover;
+}
+
+
+.ControlOption .container .ControlOptionInner .option011 {
+    display: flex;
+    gap: 50px;
+    margin: 100px 0;
+}
+
+.ControlOption .container .ControlOptionInner .option011 .option011item {
+    width: 50%;
+    margin: auto 0;
+}
+
+.ControlOption .container .ControlOptionInner .option011 .optionfigure011 {
+    width: 50%;
+    height: 450px;
+    background: url('../../public/images/optionfigure011.png')no-repeat center center/cover;
+}
+
+.ControlOption .container .ControlOptionInner .option012 {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 50px;
+    margin: 100px 0;
+}
+
+.ControlOption .container .ControlOptionInner .option012 .option012item {
+    width: 50%;
+    margin: auto 0;
+}
+
+.ControlOption .container .ControlOptionInner .option012 .optionfigure012 {
+    width: 50%;
+    height: 450px;
+    background: url('../../public/images/optionfigure012.png')no-repeat center center/cover;
 }
 
 .Control .IChar {
@@ -517,6 +717,147 @@
     color: #ddd;
 }
 
+.MacroMain {
+    margin: 100px 0 0 0;
+}
+
+.MacroMain .container {
+    display: block;
+}
+
+.MacroMain .container h2 {
+    font-size: 35px;
+    font-weight: 700;
+    margin: 0 0 50px 0;
+    text-align: center;
+    line-height: 1.414;
+}
+
+.MacroMain .container p {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.414;
+}
+
+.MacroContent .container .MacroContentInner h2 {
+    font-size: 23px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 50px 0;
+}
+
+.MacroContent .container .MacroContentInner p {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.414;
+}
+
+.MacroContent .container .MacroContentInner .content1 {
+    display: flex;
+    gap: 50px;
+    margin: 100px 0;
+}
+
+.MacroContent .container .MacroContentInner .content1 .content1inner {
+    width: 50%;
+    margin: auto 0;
+}
+
+.MacroContent .container .MacroContentInner .content1 .content1figure {
+    width: 50%;
+    height: 450px;
+    background: url('../../public/images/macrofigure1.png')no-repeat center center/contain;
+}
+
+.MacroContent .container .MacroContentInner .content2 {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 50px;
+    margin: 100px 0;
+}
+
+.MacroContent .container .MacroContentInner .content2 .content2inner {
+    width: 50%;
+    margin: auto 0;
+}
+
+.MacroContent .container .MacroContentInner .content2 .content2figure {
+    width: 50%;
+    height: 450px;
+    background: url('../../public/images/macrofigure2.jpg')no-repeat center center/contain;
+}
+
+.MacroContent .container .MacroContentInner .content3 {
+    display: flex;
+    gap: 50px;
+    margin: 100px 0;
+}
+
+.MacroContent .container .MacroContentInner .content3 .content3inner {
+    width: 50%;
+    margin: auto 0;
+}
+
+.MacroContent .container .MacroContentInner .content3 .content3figure {
+    width: 50%;
+    height: 450px;
+    background: url('../../public/images/macrofigure3.jpg')no-repeat center center/contain;
+}
+
+.MacroContent .container .MacroContentInner .content4 {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 50px;
+    margin: 100px 0;
+}
+
+.MacroContent .container .MacroContentInner .content4 .content4inner {
+    width: 50%;
+    margin: auto 0;
+}
+
+.MacroContent .container .MacroContentInner .content4 .content4figure {
+    width: 50%;
+    height: 450px;
+    background: url('../../public/images/macrofigure4.jpg')no-repeat center center/contain;
+}
+
+.MacroContent .container .MacroContentInner .content5 {
+    display: flex;
+    gap: 50px;
+    margin: 100px 0;
+}
+
+.MacroContent .container .MacroContentInner .content5 .content5inner {
+    width: 50%;
+    margin: auto 0;
+}
+
+.MacroContent .container .MacroContentInner .content5 .content5figure {
+    width: 50%;
+    height: 450px;
+    background: url('../../public/images/macrofigure5.jpg')no-repeat center center/contain;
+}
+
+.MacroContent .container .MacroContentInner .content6 {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 50px;
+    margin: 100px 0;
+}
+
+.MacroContent .container .MacroContentInner .content6 .content6inner {
+    width: 50%;
+    margin: auto 0;
+}
+
+.MacroContent .container .MacroContentInner .content6 .content6figure {
+    width: 50%;
+    height: 450px;
+    background: url('../../public/images/macrofigure6.jpg')no-repeat center center/cover;
+}
+
+
 .RChar {
     padding: 100px 0;
 }
@@ -595,4 +936,13 @@
     font-weight: 500;
     line-height: 1.414;
     color: #ddd;
+}
+
+.ResetMain .container {
+    display: block;
+}
+
+.ResetMain .container .content1 {
+    width: 50%;
+    margin: auto 0;
 }
