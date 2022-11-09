@@ -1,14 +1,15 @@
-import React from 'react';
-import Gamedata from '../data/data.json';
-import Gamelist from '../component/Gamelist';
+import React, { useState } from 'react';
 import '../css/Game.css';
 
 
 const Game = () => {
+    const [top, setTop] = useState();
 
     return (
-        <section className="Game">
-            <Gamelist />
+        <section className='GameNav'>
+            <ul>
+                <li onClick={setTop}>LI</li>
+            </ul>
         </section>
     )
 }

@@ -942,7 +942,51 @@
     display: block;
 }
 
+.ResetMain .container h2 {
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 1.414;
+    text-align: center;
+    margin: 0 0 50px 0;
+}
+
+.ResetMain .container p {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.414;
+}
+
 .ResetMain .container .content1 {
+    display: flex;
+    gap: 50px;
+    margin: 100px 0;
+}
+
+.ResetMain .container .content1 .content1inner {
     width: 50%;
     margin: auto 0;
+}
+
+.ResetMain .container .content1 .content1figure {
+    width: 50%;
+    height: 450px;
+    background: url('../../public/images/resetfigure1.png')no-repeat center center/contain;
+}
+
+.ResetMain .container .content2 {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 50px;
+    margin: 100px 0;
+}
+
+.ResetMain .container .content2 .content2inner {
+    width: 50%;
+    margin: auto 0;
+}
+
+.ResetMain .container .content2 .content2figure {
+    width: 50%;
+    height: 450px;
+    background: url('../../public/images/resetfigure2.png')no-repeat center center/cover;
 }

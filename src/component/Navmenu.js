@@ -32,7 +32,7 @@ const Navmenu = () => {
                         <li><Link to="/">뉴스</Link></li>
                     </ul>
                 </li>
-                <li><Link to="/BlueStack/Support">지원</Link></li>
+                <li><a href="https://support.bluestacks.com/hc/ko" target='_blank' without rel="noreferrer">지원</a></li>
                 <li><a href="https://cafe.naver.com/bluestackskr/" target='_blank' without rel="noreferrer">블루스택공식카페</a></li>
             </ul>
         </div >

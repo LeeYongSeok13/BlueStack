@@ -9,7 +9,6 @@ import Multi from './component/Multi';
 import Macro from './component/Macro';
 import Reset from './component/Reset';
 import Game from './pages/Game';
-import Blog from './pages/Blog';
 import Footer from './component/Footer';
 import { Route, Routes } from 'react-router-dom';
 
@@ -28,7 +27,6 @@ function App() {
         <Route path='/BlueStack/Characteristic/Macro' element={<Macro />} />
         <Route path='/BlueStack/Characteristic/Reset' element={<Reset />} />
         <Route path='/BlueStack/Game' element={<Game />} />
-        <Route path='/BlueStack/Blog' element={<Blog />} />
       </Routes>
       <Footer />
     </Wrapper >
