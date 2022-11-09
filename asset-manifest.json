@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/BlueStack/static/css/main.43a25504.css",
-    "main.js": "/BlueStack/static/js/main.8fb8aeb5.js",
+    "main.css": "/BlueStack/static/css/main.499019e0.css",
+    "main.js": "/BlueStack/static/js/main.b81a47ec.js",
     "static/media/MainVisual04.png": "/BlueStack/static/media/MainVisual04.dde45c70ed9c10b2fb10.png",
     "static/media/MainVisual03.jpg": "/BlueStack/static/media/MainVisual03.baf78f84f325b08c264c.jpg",
     "static/media/mainVisual01.jpg": "/BlueStack/static/media/mainVisual01.392c248ba99e293d57b2.jpg",
@@ -13,9 +13,11 @@
     "static/media/macrofigure4.jpg": "/BlueStack/static/media/macrofigure4.e3823c692c2e0040087f.jpg",
     "static/media/MainVisual05.jpg": "/BlueStack/static/media/MainVisual05.dec099f7d8d6c8e05ab7.jpg",
     "static/media/Slidetitle01.png": "/BlueStack/static/media/Slidetitle01.a7930909cfb252fdc0e0.png",
+    "static/media/resetfigure2.png": "/BlueStack/static/media/resetfigure2.297f0f9b4a0f4e68e894.png",
     "static/media/optionfigure011.png": "/BlueStack/static/media/optionfigure011.38d6e3f24b9cc4e99d5a.png",
     "static/media/macrofigure1.png": "/BlueStack/static/media/macrofigure1.6ebeb8b22f2e70f0d848.png",
     "static/media/optionfigure01.png": "/BlueStack/static/media/optionfigure01.5c355a6ddd470a7f3bb1.png",
+    "static/media/resetfigure1.png": "/BlueStack/static/media/resetfigure1.02f4bdea72e1f0faff11.png",
     "static/media/macrofigure5.jpg": "/BlueStack/static/media/macrofigure5.d27661357f4e184072ac.jpg",
     "static/media/macrofigure3.jpg": "/BlueStack/static/media/macrofigure3.3315db0dd823ed37a708.jpg",
     "static/media/optionfigure07.png": "/BlueStack/static/media/optionfigure07.22f46363a130c9288d5c.png",
@@ -40,11 +42,11 @@
     "static/media/Slidetitle05.png": "/BlueStack/static/media/Slidetitle05.25c83aef8b484a326215.png",
     "static/media/advertise_bg.png": "/BlueStack/static/media/advertise_bg.ea5e5fd0ed7f17e5c397.png",
     "index.html": "/BlueStack/index.html",
-    "main.43a25504.css.map": "/BlueStack/static/css/main.43a25504.css.map",
-    "main.8fb8aeb5.js.map": "/BlueStack/static/js/main.8fb8aeb5.js.map"
+    "main.499019e0.css.map": "/BlueStack/static/css/main.499019e0.css.map",
+    "main.b81a47ec.js.map": "/BlueStack/static/js/main.b81a47ec.js.map"
   },
   "entrypoints": [
-    "static/css/main.43a25504.css",
-    "static/js/main.8fb8aeb5.js"
+    "static/css/main.499019e0.css",
+    "static/js/main.b81a47ec.js"
   ]
 }
