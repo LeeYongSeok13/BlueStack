@@ -3,7 +3,6 @@
     margin: 0 auto;
 }
 
-.Gamelist .container {
-    display: block;
+.Game {
     padding: 100px 0;
 }

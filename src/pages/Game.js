@@ -1,16 +1,8 @@
-import React, { useState } from 'react';
 import '../css/Game.css';
 
-
 const Game = () => {
-    const [top, setTop] = useState();
-
     return (
-        <section className='GameNav'>
-            <ul>
-                <li onClick={setTop}>LI</li>
-            </ul>
-        </section>
+        <div className='Game'></div>
     )
 }
 export default Game
